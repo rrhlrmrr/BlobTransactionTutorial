@@ -1,0 +1,21 @@
+{
+  "name": "bitone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "c-kzg": "^4.0.0-alpha.0",
+    "dotenv": "^16.4.5",
+    "kzg-wasm": "^0.4.0",
+    "viem": "^2.9.31"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8"
+  }
+}
