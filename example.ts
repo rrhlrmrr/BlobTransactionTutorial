@@ -1,4 +1,4 @@
-import { parseGwei, stringToHex, toBlobs, parseEther, setupKzg, createTestClient, createWalletClient, http } from 'viem'
+import { parseGwei, stringToHex, toBlobs, parseEther, setupKzg, createWalletClient, http } from 'viem'
 import { privateKeyToAccount } from "viem/accounts";
 import { sepolia } from 'viem/chains'
 import * as cKzg from 'c-kzg'
@@ -36,7 +36,6 @@ export type AccessList = {
     storageKeys: `0x${string}`[];
 }[];
 
-// 올바른 AccessList 예제
 const accessList: AccessList = [
     {
         address: '0x0000000000000000000000000000000000000000',
@@ -87,9 +86,8 @@ async function type3transaction() {
 }
 
 // type0transaction();
-
-type1transaction();
+// type1transaction();
 // type2transaction();
-// type3transaction();
+type3transaction();
 
 
