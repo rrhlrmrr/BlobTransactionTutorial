@@ -19,3 +19,12 @@
  - EIP-4844 is designed to improve Ethereum's data throughput and scalability by using "blob" data to enable large-scale data processing at Layer 1, complementing Layer 2 solutions and increasing overall network throughput.
 
 ## Usage 
+
+Node Package Install
+```
+npm install
+```
+Run Script
+```
+ts-node example-ts
+```
