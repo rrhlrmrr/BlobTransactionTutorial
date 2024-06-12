@@ -77,12 +77,12 @@ async function type3transaction() {
         account,
         blobs: blobs,
         kzg,
-        maxFeePerBlobGas: parseGwei('30'),
+        maxFeePerBlobGas: parseGwei('300'),
         to: '0x0000000000000000000000000000000000000000',
         chain: sepolia,
         gas: 21000n,
     })
-    console.log("TxHash:", hash);
+    console.log(`Transaction : https://sepolia.etherscan.io/tx/${hash}`)
 }
 
 // type0transaction();
